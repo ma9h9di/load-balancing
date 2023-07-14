@@ -1,0 +1,18 @@
+import time
+
+SYSTEM_TIME = 0
+TIME_SLOT = 0.2
+PLOT = True
+
+NODE_MEMORY = 1024 * 192 * 0.9
+NODE_CPU = 64 * 0.9
+
+MEMORY_PRIORITY = 0.5
+
+MIN_MEMORY_ACTION = 128
+MAX_MEMORY_ACTION = 1024 * 32
+MIN_CPU_ACTION = 0.83
+MAX_CPU_ACTION = 8
+
+NODE_PRICE_TIME_SLOT = 2.4 / (60 * 60 / TIME_SLOT)
+result_dir = f'../result/{int(time.time())}'
